@@ -7,7 +7,7 @@ otherwise. However, your function cannot use the multiplication, modulo, or divi
 def is_even(k):
     """A better solution is to use bitwise operators. We need to check whether last bit is 1 or not.
     If last bit is 1 then the number is odd, otherwise always even."""
-    return notr(k & 1)
+    return not(k & 1)
 
 
 if __name__ == "__main__":
