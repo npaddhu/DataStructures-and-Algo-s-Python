@@ -3,10 +3,10 @@ R-1.1 Write a short Python function, is_multiple(n, m), that takes two integer v
 '''
 
 def is_multiple(n, m):
-	return True if n%m == 0 else False
+    return True if n%m == 0 else False
 
 if __name__=="__main__":
-	n = int(input('Enter n value'))
-	m = int(input('Enter m value'))
-	result = is_multiple(n, m)
-	print('n is multiple of m:', result)
+    n = int(input('Enter n value'))
+    m = int(input('Enter m value'))
+    result = is_multiple(n, m)
+    print('n is multiple of m1:', result)
